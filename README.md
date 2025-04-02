@@ -13,7 +13,7 @@ An Android repackaging attack is a type of cyberattack where a malicious actor t
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://imgur.com/9kZQvqf" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MXntUfY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
