@@ -7,17 +7,19 @@ An Android repackaging attack is a type of cyberattack where a malicious actor t
 
 <h2>Environments Used </h2>
 
-- <b>Ubuntu</b> 
+- <b> Seed Ubuntu 16.4 </b>
+- <b> Android 7.1 VM </b> 
 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/MXntUfY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+I have downloaded the seed VM machine from https://seedsecuritylabs.org/Labs_16.04/Mobile/Android_Repackaging/ and Android VM. Once these are downlaoded, we need to also download the smali code from this website. I have dowloaded MaliciousCode_Location.zip file for this exercise. Below screenshot shows the smali codes. We have also downloaded an Android application called Minimal To Do which is a simple tool for creating To-do lists.  : <br/>
+<img src="https://i.imgur.com/oB5f5sj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Once we have downloaded the apk file. We need to decompile the file as shown below. Once the de-compilation is completed, we will be injecting the Malicious code into the decompiled file and choose the location where we need to inject the malicious code.:  <br/>
+<img src="https://i.imgur.com/w0GLBwt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/hLJBvQA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>
